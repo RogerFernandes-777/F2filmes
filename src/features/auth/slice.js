@@ -42,6 +42,7 @@ const authSlice = createSlice({
             state.isRegistrated = true;
         },
         setIsRegistrated: (state)=>{
+            
              state.isRegistrated = !state.isRegistrated;
         }
     },

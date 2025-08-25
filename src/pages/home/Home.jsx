@@ -5,7 +5,10 @@ const Home = ()=>{
 
     return(
         <div className="home">
-            <h1>home</h1>
+            <section className="top">
+                <h1>F2FILMES</h1>
+                <input type="search" />
+            </section>
         </div>
     );
 }
